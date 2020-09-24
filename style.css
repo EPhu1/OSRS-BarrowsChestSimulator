@@ -1,0 +1,431 @@
+html{
+    background-image: url(Images/Barrows/background.png);
+    background-size: 100%;
+    background-position: center;
+}
+p{
+    font-size: 180%;
+    position: relative;
+    bottom: 45%;
+}
+#instructions{
+    position: fixed;
+    bottom: 40%;
+    right: 54%;
+}
+h1{
+    /* background: #41392f;  */
+    color: yellow;
+    margin: 100 0 0 0;
+    text-align: center;
+    position: relative;
+}
+section{
+    /* background: cyan; */
+    /* border: 5px solid red; */
+    height: 600px;
+}
+#slot1{
+    /* border: 5px solid blue; */
+    position: fixed;
+    right: 48.4%;
+    top: 29.7%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#slot2{
+    /* border: 5px solid blue; */
+    position: fixed;
+    right: 42.4%;
+    top: 29.7%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#slot3{
+    /* border: 5px solid blue; */
+    position: fixed;
+    right: 36.3%;
+    top: 29.7%;
+    /* height: 80px;
+    width: 80px; */
+    /* background-image: url("../Images/Barrows/Dharok's_platelegs.png"); */
+    /* background-image: url("../Images/Barrows/Death_rune.png"); */
+    background-image: url("Images/Barrows/Blood_rune.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#slot4{
+    /* border: 5px solid blue; */
+    position: fixed;
+    right: 48.4%;
+    top: 43.8%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+}
+#slot5{
+    /* border: 5px solid blue; */
+    position: fixed;
+    right: 42.4%;
+    top: 43.8%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#slot6{
+    /* border: 5px solid blue; */
+    position: fixed;
+    right: 36.3%;
+    top: 43.8%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#chest_div{
+    /* border: 10px solid blue; */
+    height: 600px;
+    width: 600px;
+    background-image: url(Images/Barrows/emptyChest1.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* border: 5px solid blue; */
+    margin: 0 auto; /* this makes the chest centered. Notes in the javascript bookmark. */
+}
+#chest_button{
+    background-image: url("Images/Barrows/chest.png");
+    height: 325px;
+    width: 300px;
+    background-size: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    /* border-radius: 40%; */
+    outline: none;
+    border: none;
+    left: 2%;
+    top: 37%;
+    opacity: .8;
+}
+#chest_button:hover{
+    opacity: 1;
+}
+#item1{
+    border: 5px solid yellow;
+    height: 80px;
+    position: relative;
+    top: 12%;
+    right: 12%;
+}
+#item2{
+    border: 5px solid green;
+    height: 80px;
+    position: relative;
+    top: 12%;
+    right: 10.5%;
+}
+#item3{
+    border: 5px solid green;
+    height: 80px;
+    position: relative;
+    top: 12%;
+    right: 9%;
+
+}
+#item4{
+    border: 5px solid yellow;
+    height: 80px;
+    position: relative;
+    bottom: 9.3%;
+    left: 56.4%;
+
+}
+#item5{
+    border: 5px solid green;
+    height: 80px;
+    position: relative;
+    bottom: 9.3%;
+    left: 22.6%;
+}
+#item6{
+    border: 5px solid green;
+    height: 80px;
+    position: relative;
+    bottom: 9.3%;
+    left: 41.5%;
+}
+footer{
+    /* background: #41392f;  */
+    font-size: 150%;
+    color: yellow;
+    text-align: center;
+}
+
+@media screen and (max-width: 1600px) {
+    #slot1{
+        /* border: 5px solid red; */
+        right: 48.4%;
+    }
+    #slot2{
+        right: 40.9%;
+    }
+    #slot3{
+        right: 33.3%;
+    }
+    #slot4{
+        right: 48.4%;
+    }
+    #slot5{
+        right: 40.9%;
+    }
+    #slot6{
+        right: 33.3%;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    #slot1{
+        /* border: 5px solid green; */
+        right: 48.4%;
+    }
+    #slot2{
+        right: 39.4%;
+    }
+    #slot3{
+        right: 30.3%;
+    }
+    #slot4{
+        right: 48.4%;
+    }
+    #slot5{
+        right: 39.4%;
+    }
+    #slot6{
+        right: 30.3%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #slot1{
+        /* border: 5px solid purple; */
+        right: 48.4%;
+    }
+    #slot2{
+        right: 37.9%;
+    }
+    #slot3{
+        right: 27.3%;
+    }
+    #slot4{
+        right: 48.4%;
+    }
+    #slot5{
+        right: 37.9%;
+    }
+    #slot6{
+        right: 27.3%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #slot1{
+        /* border: 5px solid orange; */
+        right: 48.4%;
+    }
+    #slot2{
+        right: 34.9%;
+    }
+    #slot3{
+        right: 21.3%;
+    }
+    #slot4{
+        right: 48.4%;
+    }
+    #slot5{
+        right: 34.9%;
+    }
+    #slot6{
+        right: 21.3%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #slot1{
+        /* border: 5px solid cyan; */
+        right: 48.4%;
+    }
+    #slot2{
+        right: 29.9%;
+    }
+    #slot3{
+        right: 12.3%;
+    }
+    #slot4{
+        right: 48.4%;
+    }
+    #slot5{
+        right: 29.9%;
+    }
+    #slot6{
+        right: 12.3%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #chest_div{
+        /* border: 10px solid purple; */
+        height: 550px;
+        width: 550px;
+        
+    }
+    #slot1{
+        /* border: 5px solid cyan; */
+        right: 44.4%;
+    }
+    #slot2{
+        right: 25.9%;
+    }
+    #slot3{
+        right: 8.3%;
+    }
+    #slot4{
+        right: 44.4%;
+    }
+    #slot5{
+        right: 25.9%;
+    }
+    #slot6{
+        right: 8.3%;
+    }
+    #chest_button{
+        height: 274px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-height: 875px){
+    #chest_div{
+        /* border: 10px solid gold; */
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        margin: -300px 0 0 -300px;
+    }
+    #slot1{
+        top: 31.7%;
+    }
+    #slot2{
+        top: 31.7%;
+    }
+    #slot3{
+        top: 31.7%;
+    }
+    #slot4{
+        top: 45.8%;
+    }
+    #slot5{
+        top: 45.8%;
+    }
+    #slot6{
+        top: 45.8%;
+    }
+}
+
+@media screen and (max-height: 790px){
+    footer{
+        position: relative;
+        top: -10%;
+    }
+}
+
+@media screen and (max-height: 680px){
+    #chest_div{
+        /* border: 10px solid brown; */
+        height: 600px;
+        width: 600px;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        margin: -300px 0 0 -300px;
+    }
+    #slot1{
+        top: 26.7%;
+    }
+    #slot2{
+        top: 26.7%;
+    }
+    #slot3{
+        top: 26.7%;
+    }
+    #slot4{
+        top: 43.8%;
+    }
+    #slot5{
+        top: 43.8%;
+    }
+    #slot6{
+        top: 43.8%;
+    }
+    footer{
+        position: relative;
+        top: -20%;
+    }
+}
+
+@media screen and (max-height: 635px){
+    footer{
+        position: relative;
+        top: -25%;
+    }
+}
+
+@media screen and (max-height: 610px){
+    footer{
+        position: relative;
+        top: -35%;
+    }
+}
+
+@media screen and (max-height: 550px){
+    #chest_div{
+        /* border: 10px solid purple; */
+        height: 550px;
+        width: 550px;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        margin: -275px 0 0 -275px;
+    }
+    #slot1{
+        top: 23.7%;
+    }
+    #slot2{
+        top: 23.7%;
+    }
+    #slot3{
+        top: 23.7%;
+    }
+    #slot4{
+        top: 43.8%;
+    }
+    #slot5{
+        top: 43.8%;
+    }
+    #slot6{
+        top: 43.8%;
+    }
+    #chest_button{
+        height: 274px;
+        width: 250px;
+    }
+    footer{
+        position: relative;
+        top: -45%;
+    }
+}
